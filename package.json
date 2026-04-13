@@ -1,6 +1,6 @@
 {
   "name": "semver",
-  "version": "6.3.0",
+  "version": "6.3.0-lineaje-01",
   "description": "The semantic version parser used by npm.",
   "main": "semver.js",
   "scripts": {
@@ -13,7 +13,16 @@
     "tap": "^14.3.1"
   },
   "license": "ISC",
-  "repository": "https://github.com/npm/node-semver",
+  "contributors": [
+    {
+      "name": "Lineaje DepFixer",
+      "email": "221268890+Lineaje-DepFixer@users.noreply.github.com"
+    }
+  ],
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/lineaje-labs-gos/npm-node-semver"
+  },
   "bin": {
     "semver": "./bin/semver.js"
   },
